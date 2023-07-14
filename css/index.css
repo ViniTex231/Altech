@@ -235,7 +235,67 @@ body{
     color: rgb(70, 70, 87);
 }
 
+#services{
+    text-align: center;
+}
+
+#services .pro-container{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+#services .pro{
+    margin-left: 12rem;
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+#services .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+#services .pro img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+#services .pro .des{
+    text-align: start;
+    padding: 10px 0;
+}
+
+#services .pro .des h5{
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 14px;
+}
+
+#services .pro .des i{
+    font-size: 12px;
+    color: rgb(243, 181, 25);
+}
+
+#services .pro .des h4{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #606063;
+}
+
 footer{
+    margin-top: 2rem;
     background: #ebebf0;
     display: flex;
     flex-wrap: wrap;
@@ -279,7 +339,11 @@ footer .follow{
 footer .follow i{
     color: #465b52;
     padding-right: 4px;
-    cursor: pointer;
+    /* cursor: pointer; */
+}
+
+footer .follow #text{
+    text-align: center;
 }
 
 footer .follow i:hover,
