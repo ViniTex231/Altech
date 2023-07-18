@@ -15,5 +15,4 @@ document.addEventListener('click', (e)=>{
         }
         } 
     }
-  
 )
