@@ -328,3 +328,7 @@ footer .copyright{
     width: 100%;
     text-align: center;
 }
+
+@media screen and (max-width: 600px){
+    
+}
